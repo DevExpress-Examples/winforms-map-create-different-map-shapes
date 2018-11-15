@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Form1.cs](./CS/MapItemsExample/Form1.cs) (VB: [Form1.vb](./VB/MapItemsExample/Form1.vb))
+* [Program.cs](./CS/MapItemsExample/Program.cs) (VB: [Program.vb](./VB/MapItemsExample/Program.vb))
+<!-- default file list end -->
 # How to create different map shapes
 
 
