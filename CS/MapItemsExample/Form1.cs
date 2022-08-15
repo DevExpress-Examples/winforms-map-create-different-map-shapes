@@ -95,9 +95,24 @@ namespace WindowsFormsApplication3 {
             ItemStorage.Items.Add(pie);
             #endregion #MapPieExample
 
+            #region #MapSplineExample
+            var spline = new MapSpline() { StrokeWidth = 4, Stroke = Color.Green };
+            spline.Points.AddRange(new GeoPoint[] {
+                new GeoPoint(-37, 130.63),
+                new GeoPoint(-50, 140.7),
+                new GeoPoint(-32, 150.6)
+            });
+            ItemStorage.Items.Add(spline);
+            #endregion #MapSplineExample
+
+            map.ZoomToFitLayerItems(new LayerBase[] { VectorLayer });
+        }
+
+        private void openStreetMapDataProvider1_WebRequest(object sender, MapWebRequestEventArgs e) {
+            e.UserAgent = "Sample OSM map example";
+            e.Referer = "https://www.mycompanysite.com/";
         }
     }
-
 }
 
 
