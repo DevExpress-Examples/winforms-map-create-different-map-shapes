@@ -1,5 +1,7 @@
-﻿Namespace WindowsFormsApplication3
-    Partial Public Class Form1
+Namespace WindowsFormsApplication3
+
+    Partial Class Form1
+
         ''' <summary>
         ''' Required designer variable.
         ''' </summary>
@@ -10,27 +12,27 @@
         ''' </summary>
         ''' <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         Protected Overrides Sub Dispose(ByVal disposing As Boolean)
-            If disposing AndAlso (components IsNot Nothing) Then
-                components.Dispose()
+            If disposing AndAlso (Me.components IsNot Nothing) Then
+                Me.components.Dispose()
             End If
+
             MyBase.Dispose(disposing)
         End Sub
 
-        #Region "Windows Form Designer generated code"
-
+#Region "Windows Form Designer generated code"
         ''' <summary>
         ''' Required method for Designer support - do not modify
         ''' the contents of this method with the code editor.
         ''' </summary>
         Private Sub InitializeComponent()
-            Dim imageTilesLayer1 As New DevExpress.XtraMap.ImageTilesLayer()
-            Dim openStreetMapDataProvider1 As New DevExpress.XtraMap.OpenStreetMapDataProvider()
-            Dim vectorItemsLayer1 As New DevExpress.XtraMap.VectorItemsLayer()
-            Dim keyColorColorizer1 As New DevExpress.XtraMap.KeyColorColorizer()
-            Dim argumentItemKeyProvider1 As New DevExpress.XtraMap.ArgumentItemKeyProvider()
-            Dim mapItemStorage1 As New DevExpress.XtraMap.MapItemStorage()
+            Dim imageTilesLayer1 As DevExpress.XtraMap.ImageTilesLayer = New DevExpress.XtraMap.ImageTilesLayer()
+            Dim openStreetMapDataProvider1 As DevExpress.XtraMap.OpenStreetMapDataProvider = New DevExpress.XtraMap.OpenStreetMapDataProvider()
+            Dim vectorItemsLayer1 As DevExpress.XtraMap.VectorItemsLayer = New DevExpress.XtraMap.VectorItemsLayer()
+            Dim keyColorColorizer1 As DevExpress.XtraMap.KeyColorColorizer = New DevExpress.XtraMap.KeyColorColorizer()
+            Dim argumentItemKeyProvider1 As DevExpress.XtraMap.ArgumentItemKeyProvider = New DevExpress.XtraMap.ArgumentItemKeyProvider()
+            Dim mapItemStorage1 As DevExpress.XtraMap.MapItemStorage = New DevExpress.XtraMap.MapItemStorage()
             Me.map = New DevExpress.XtraMap.MapControl()
-            DirectCast(Me.map, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.map), System.ComponentModel.ISupportInitialize).BeginInit()
             Me.SuspendLayout()
             ' 
             ' map
@@ -57,15 +59,12 @@
             Me.Controls.Add(Me.map)
             Me.Name = "Form1"
             Me.Text = "Form1"
-            DirectCast(Me.map, System.ComponentModel.ISupportInitialize).EndInit()
+            AddHandler Me.Load, New System.EventHandler(AddressOf Me.Form1_Load)
+            CType((Me.map), System.ComponentModel.ISupportInitialize).EndInit()
             Me.ResumeLayout(False)
-
         End Sub
 
-        #End Region
-
+#End Region
         Private map As DevExpress.XtraMap.MapControl
-
     End Class
 End Namespace
-
