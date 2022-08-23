@@ -12,9 +12,9 @@ This example shows how to create map shapes and add them to a vector layer.
 
 Follow the steps below to add map shapes to the map:
 
-1. Add a [VectorItemsLayer](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.VectorItemsLayer) object to the [MapControl.Layers](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.MapControl.Layers) collection.
-2. Initialize the [VectorItemsLayer.Data](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.VectorItemsLayer.Data) property with a [MapItemStorage](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.MapItemStorage) object.
-3. Add shape objects to the [MapItemStorage.Items](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.MapItemStorage.Items) collection.
+1. Add a [`VectorItemsLayer`](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.VectorItemsLayer) object to the [`MapControl.Layers`](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.MapControl.Layers) collection.
+2. Initialize the [`VectorItemsLayer.Data`](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.VectorItemsLayer.Data) property with a [`MapItemStorage`](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.MapItemStorage) object.
+3. Add shape objects to the [`MapItemStorage.Items`](https://docs.devexpress.com/WindowsForms/DevExpress.XtraMap.MapItemStorage.Items) collection.
 
 The following shapes are available:
 
