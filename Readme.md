@@ -57,7 +57,7 @@ The following shapes are available:
 * [How to customize the appearance of a map shape title](https://github.com/DevExpress-Examples/how-to-customize-the-appearance-of-a-map-shape-title-e5184)
 * [How to Use Clusterers to Aggregate Vector Items](https://github.com/DevExpress-Examples/winforms-map-aggregate-vector-items-using-a-clusterer)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-map-create-different-map-shapes&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-map-create-different-map-shapes&~~~was_helpful=no)
 
